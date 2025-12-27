@@ -326,7 +326,7 @@ main {
 /*medium screens*/
 @media (max-width: 800px) {
   body {
-    margin-top: 27%;
+    padding-top: 150px;
   }
 
   .menu {
@@ -445,7 +445,7 @@ main {
 @media (max-width: 500px) {
   body {
     height: auto;
-    margin-top: 35%;
+    padding-top: 270px;
   }
 
   .title-font {
@@ -532,3 +532,4 @@ main {
     font-size: 0.8em;
   }
 }
+
