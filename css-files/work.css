@@ -1,0 +1,28 @@
+h2,
+p {
+    margin: 10px auto;
+    width: 60%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.3em;
+    font-family: 'Georgia', serif;
+}
+
+.section-description {
+    font-size: 1em;
+    color: #666;
+    font-style: italic;
+}
+
+main,
+.row1,
+.row2,
+.row3,
+.contact-container {
+    position: relative;
+    z-index: 1;
+    /* Keeps content at a low priority layer */
+}

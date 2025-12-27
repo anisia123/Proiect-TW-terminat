@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Display;
+    src: url(../fonts/SG\ Display\ DEMO\ -\ Wide.ttf);
+}
+
+.home-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2em 0%;
+    gap: 3em;
+}
+
+.about-text {
+    flex: 1;
+    font-family: 'Georgia', serif;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #333;
+    text-align: left;
+    justify-content: left;
+}
+
+.about-text h2 {
+    display: block;
+    width: fit-content;
+    font-family: Display;
+    font-size: 4em;
+    padding-top: 0.5em;
+    margin-bottom: 1em;
+    transform: rotate(-3deg);
+    transform-origin: top left;
+}
+
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    max-width: 90%;
+    height: auto;
+    margin-right: 25%;
+    animation: breath 4s infinite alternate ease-in-out;
+}
+
+@keyframes breath {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+
+    100% {
+        transform: translateY(-25px) scale(1.1);
+    }
+}
+
+.about-image img:hover {
+    transform: none;
+}
+
+h2,
+p {
+    margin: 10px auto;
+    width: 60%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.3em;
+    font-family: 'Georgia', serif;
+}

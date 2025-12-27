@@ -1,0 +1,139 @@
+.contact-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    letter-spacing: 1px;
+    padding-top: 0;
+    margin-top: 0.5em;
+}
+
+.contact-title h1 {
+    margin: 0;
+}
+
+.contact-container {
+    background-color: #deddcf;
+    width: 80%;
+    height: min-content;
+    margin: 2em auto;
+    box-shadow: 0 5px 10px #484844;
+    padding: 2em;
+    margin-bottom: 10%;
+}
+
+.contact-container-header {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    position: relative;
+}
+
+.info {
+    justify-items: left;
+    align-items: start;
+    margin-top: 1em;
+    width: 45%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #444;
+}
+
+.info p {
+    justify-self: left;
+    margin-block-start: 0;
+    margin: 0.4em 0;
+}
+
+.info h2 {
+    padding: 0.5em 0;
+}
+
+.contact-container form {
+    width: 55%;
+}
+
+.contact-container form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.contact-container form div p {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+    color: #333;
+}
+
+.contact-container form input,
+.contact-container form textarea {
+    width: 100%;
+    padding: 0.6em;
+    border: 1px solid #a7a7a7;
+    border-radius: 8px;
+    background-color: #edede5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-container form textarea {
+    min-height: 120px;
+}
+
+.contact-container form button {
+    padding: 0.6em 1.2em;
+    border-radius: 25px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-container form button:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 7%;
+    font-size: 1.1em;
+}
+
+.email a,
+.phone a {
+    font-weight: bold;
+    color: #333;
+    font-size: xx-large;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 1em;
+}
+
+.contact-icons img {
+    max-height: 3em;
+    transition: transform 0.3s ease;
+}
+
+.contact-icons img:hover {
+    transform: scale(1.2);
+}
+.checkbox-class {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.checkbox-class input {
+    margin-right: 0.5em;
+    max-width: min-content;
+    border: 1px solid #a7a7a7;
+    border-radius: 8px;
+    background-color: #edede5;
+}

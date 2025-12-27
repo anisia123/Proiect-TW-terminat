@@ -1,0 +1,38 @@
+.price {
+    font-size: 1.4em;
+    color: #fff;
+    margin: 0.5em 0;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #1e1e1e;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #555;
+}
+
+h2,
+p {
+    margin: 10px auto;
+    width: 60%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.3em;
+    font-family: 'Georgia', serif;
+}
+
+.section-description {
+    font-size: 1em;
+    color: #666;
+    font-style: italic;
+}
